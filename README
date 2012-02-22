@@ -1,0 +1,1 @@
+This is a small modification to RestKit which deletes the Core Data database and recreates it when it sees that the Managed Object Model has changed.  This is useful when you are just using Core Data for caching (rather than actual data storage), because it doesn't matter if the cache gets reset.
