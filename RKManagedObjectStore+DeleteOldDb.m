@@ -35,7 +35,7 @@
             if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeUrl options:options error:&error]) {
                 NSAssert(NO, @"Managed object store failed to create persistent store coordinator (even after attempted delete): %@", error);
             }
-		}
+	}
     }
 }
 
